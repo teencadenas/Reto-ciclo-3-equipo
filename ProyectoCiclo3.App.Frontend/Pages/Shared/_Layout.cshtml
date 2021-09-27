@@ -6,12 +6,23 @@
     <title>@ViewData["Title"] - ProyectoCiclo3.App.Frontend</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+<style>
+h1 {
+  background-color: gray;
+}
+div {
+  background-color: lightblue;
+}
+p {
+  background-color:#ffff0080;
+}
+</style>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">ProyectoCiclo3.App.Frontend</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">Sistema de buses.</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -22,10 +33,25 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Buses/List">Ver Buses</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Buses/Create">Registrar Bus</a>
+                             <a class="nav-link text-dark" asp-area="" asp-page="/Buses/Create">Registrar bus</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link text-dark" asp-area="" asp-page="/Buses/List">Listado buses</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link text-dark" asp-area="" asp-page="/Estaciones/Create">Registrar estación</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link text-dark" asp-area="" asp-page="/Estaciones/List">Listado estaciones</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link text-dark" asp-area="" asp-page="/Rutas/Create">Registrar ruta</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link text-dark" asp-area="" asp-page="/Rutas/List">Listado rutas</a>
                         </li>
                     </ul>
                 </div>

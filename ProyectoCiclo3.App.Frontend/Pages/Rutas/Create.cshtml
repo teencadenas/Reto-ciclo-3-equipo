@@ -1,16 +1,18 @@
 @page
 @{
 }
- 
+<h1>Formulario rutas.</h1> 
 <div class="text-center">
-<form action="">
-  <label for="nombre" class="form-label">Nombre:</label>
-  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
-  <label for="edad" class="form-label">Edad:</label>
-  <input type="number" class="form-control" id="edad" name="edad" placeholder="Edad">
-  <label for="email" class="form-label">Email:</label>
-  <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-  <hr>
-  <button type="submit" class="btn btn-success">Enviar</button>
-</form>
+  <form action="">
+    <label for="id_Ruta" class="form-label">Digite el ID de la estación:</label>
+    <input type="number" class="form-control" id="id_Ruta" name="id_Ruta" placeholder="ID Ruta">
+    <label for="origen" class="form-label">Digite el origen de la ruta:</label>
+    <input type="text" class="form-control" id="origen" name="origen" placeholder="Origen ruta">
+    <label for="destino" class="form-label">Digite el destino de la ruta:</label>
+    <input type="text" class="form-control" id="destino" name="destino" placeholder="Destino ruta">
+    <label for="tiempo_estimado" class="form-label">Digite el tiempo estimado de la ruta:</label>
+    <input type="number" class="form-control" id="tiempo_estimado" name="tiempo_estimado" placeholder="Tiempo estimado ruta">
+    <hr>
+    <button type="submit" class="btn btn-success" style=" background-color: gray; border-color: black; font-size: black;">Enviar</button>
+  </form>
 </div>

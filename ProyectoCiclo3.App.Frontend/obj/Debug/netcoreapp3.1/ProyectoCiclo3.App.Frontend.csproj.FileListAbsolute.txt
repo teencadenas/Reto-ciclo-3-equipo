@@ -41,3 +41,46 @@ C:\Users\teenc\Desktop\.Net Proyecto\Proyecto ciclo 3\ProyectoCiclo3.App\Proyect
 C:\Users\teenc\Desktop\.Net Proyecto\Proyecto ciclo 3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estaciones\List.cshtml.g.cs
 C:\Users\teenc\Desktop\.Net Proyecto\Proyecto ciclo 3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Rutas\Create.cshtml.g.cs
 C:\Users\teenc\Desktop\.Net Proyecto\Proyecto ciclo 3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Rutas\List.cshtml.g.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.exe
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.deps.json
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.runtimeconfig.json
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.runtimeconfig.dev.json
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.dll
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.pdb
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.Views.dll
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.Views.pdb
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.csprojAssemblyReference.cache
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.AssemblyInfoInputs.cache
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.AssemblyInfo.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.csproj.CoreCompileInputs.cache
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.RazorAssemblyInfo.cache
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.RazorAssemblyInfo.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.TagHelpers.input.cache
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.TagHelpers.output.cache
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.RazorCoreGenerate.cache
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Buses\Create.cshtml.g.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Buses\List.cshtml.g.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estaciones\Create.cshtml.g.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estaciones\List.cshtml.g.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Rutas\Create.cshtml.g.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Rutas\List.cshtml.g.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.RazorTargetAssemblyInfo.cache
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.RazorTargetAssemblyInfo.cs
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.Views.pdb
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\ProyectoCiclo3.App.Frontend.StaticWebAssets.Manifest.cache
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\ProyectoCiclo3.App.Frontend.StaticWebAssets.xml
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.dll
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.pdb
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.genruntimeconfig.cache
+C:\Users\Queen\Desktop\proyecto\Reto-ciclo-3-equipo\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.csproj.CopyComplete

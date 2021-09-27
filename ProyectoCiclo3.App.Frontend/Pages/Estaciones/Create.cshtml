@@ -1,16 +1,22 @@
 @page
 @{
 }
- 
+<h1>Formulario estaciones.</h1> 
 <div class="text-center">
-<form action="">
-  <label for="nombre" class="form-label">Nombre:</label>
-  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
-  <label for="edad" class="form-label">Edad:</label>
-  <input type="number" class="form-control" id="edad" name="edad" placeholder="Edad">
-  <label for="email" class="form-label">Email:</label>
-  <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-  <hr>
-  <button type="submit" class="btn btn-success">Enviar</button>
-</form>
+  <form action="">
+    <label for="id_Estacion" class="form-label">Digite el ID de la estación:</label>
+    <input type="number" class="form-control" id="id_Estacion" name="id_Estacion" placeholder="ID Estación">
+    <label for="nombre_Estacion" class="form-label">Digite el nombre de la estación:</label>
+    <input type="text" class="form-control" id="nombre_Estacion" name="nombre_Estacion" placeholder="Nombre Estación">
+    <label for="direccion_Estacion" class="form-label">Digite la dirección de la estación:</label>
+    <input type="text" class="form-control" id="direccion_Estacion" name="direccion_Estacion" placeholder="Dirección de la Estación">
+    <label for="coorx" class="form-label">Digite la coordenada X:</label>
+    <input type="number" class="form-control" id="coorx" name="coorx" placeholder="Coordenada X">
+    <label for="coorY" class="form-label">Digite la coordenada Y</label>
+    <input type="number" class="form-control" id="coorY" name="coorY" placeholder="Coordenada Y">
+    <label for="tipo" class="form-label">Digite el tipo de estación:</label>
+    <input type="text" class="form-control" id="tipo" name="tipo" placeholder="Tipo de Estación">
+    <hr>
+      <button type="submit" class="btn btn-success" style=" background-color: gray; border-color: black; font-size: black;">Enviar</button>
+  </form>
 </div>
