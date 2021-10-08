@@ -9,18 +9,30 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
+
 th, td {
   text-align: left;
   padding: 8px;
 }
+
 tr:nth-child(even){background-color: #f2f2f2}
+
 th {
   background-color: #04AA6D;
   color: white;
 }
-tr:hover {background-color: lightgray;}
+
+tr:hover {background-color: slateblue;}
 </style>
 <table class="table">
+    <tr>
+      <td>Identificador</td>
+      <td>Nombre</td>
+      <td>Direccion</td>
+      <td>Coordenada X</td>
+      <td>Coordena Y</td>
+      <td>Tipo</td>
+    </tr>
     @foreach (var estacion in Model.Estaciones)
     {
         <tr>
@@ -32,8 +44,11 @@ tr:hover {background-color: lightgray;}
             <td>@estacion.tipo</td>
             <td>
               <a class="btn btn-info" asp-page="./Details" asp-route-estacionId="@estacion.id"><i class="fas fa-adjust"></i>Ver</a>
-              <a class="btn btn-info" href="">Editar</a>
-              <a class="btn btn-danger" href="">Eliminar</a>
+              <a class="btn btn-info" asp-page="./Edit" asp-route-estacionId="@estacion.id">Editar</a>
+              <form method="POST">
+              <input type="number" class="form-control d-none" id="id" name="id" placeholder="id" asp-for="@estacion.id">
+              <button type="submit"class="btn btn-danger" href="">Eliminar</button>
+              </form>
               </td>
         </tr>
     }

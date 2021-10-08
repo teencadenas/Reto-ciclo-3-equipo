@@ -1,4 +1,3 @@
-
 using System;
 namespace ProyectoCiclo3.App.Dominio{
     public class Rutas{
@@ -8,3 +7,4 @@ namespace ProyectoCiclo3.App.Dominio{
         public int tiempo_estimado {get; set;} 
     }
 }
+

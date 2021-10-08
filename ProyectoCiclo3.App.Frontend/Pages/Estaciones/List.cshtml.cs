@@ -13,16 +13,28 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     {
        
         private readonly RepositorioEstaciones repositorioEstaciones;
+        [BindProperty]
+        public Estaciones Estacion {get;set;}
         public IEnumerable<Estaciones> Estaciones {get;set;}
  
-    public ListEstacionModel(RepositorioEstaciones repositorioEstaciones)
+        public ListEstacionModel(RepositorioEstaciones repositorioEstaciones)
+        {
+            this.repositorioEstaciones=repositorioEstaciones;
+        }
+    
+        public void OnGet()
+        {
+            Estaciones=repositorioEstaciones.GetAll();
+        }
+
+        public IActionResult OnPost()
     {
-        this.repositorioEstaciones=repositorioEstaciones;
-     }
- 
-    public void OnGet()
-    {
-        Estaciones=repositorioEstaciones.GetAll();
+        if(Estacion.id>0)
+        {
+        Estacion = repositorioEstaciones.Delete(Estacion.id);
+        }
+        return RedirectToPage("./List");
     }
+
     }
 }

@@ -1,0 +1,25 @@
+@page
+@model ProyectoCiclo3.App.Frontend.Pages.EditEstacionesModel
+@{
+
+    var Estaciones = Model.Estacion;
+}
+
+<div class="text-">
+  <form method="post">
+      <label for="id" class="form-label">Digite el ID:</label>
+      <input type="text" class="form-control" id="id" name="id" placeholder="ID Estacion" asp-for="@Estaciones.id".readonly>
+      <label for="nombre" class="form-label">Digite el nombre de la estacion:</label>
+      <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre Estacion" asp-for="@Estaciones.nombre">
+      <label for="direccion" class="form-label">Digite la direccion de la estacion:</label>
+      <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Direccion Estacion" asp-for="@Estaciones.direccion">
+      <label for="coord_x" class="form-label">Digite la coordenada X de la estacion</label>
+      <input type="number" class="form-control" id="coord_x" name="coord_x" placeholder="coord_x Estacion" asp-for="@Estaciones.coord_x">
+      <label for="coord_y" class="form-label">Digite la coordenada X de la estacion:</label>
+      <input type="number" class="form-control" id="coord_y" name="coord_y"placeholder="coord_y Estacion" asp-for="@Estaciones.coord_y">
+      <label for="tipo" class="form-label">Digite el tipo de estacion:</label>
+      <input type="text" class="form-control" id="tipo" name="tipo" placeholder="tipo Estacion" asp-for="@Estaciones.tipo">
+      <hr>
+      <button type="submit" class="btn btn-success" style=" background-color: gray; border-color: black; font-size: black;">Enviar</button>
+</form>
+</div>

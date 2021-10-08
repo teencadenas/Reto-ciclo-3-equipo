@@ -2,24 +2,38 @@
 @model ProyectoCiclo3.App.Frontend.Pages.ListBusModel
 @{
 }
+
 <h1>Listado de los buses</h1>
 <style>
 table {
   border-collapse: collapse;
   width: 100%;
 }
+
 th, td {
   text-align: left;
   padding: 8px;
 }
+
 tr:nth-child(even){background-color: #f2f2f2}
+
 th {
   background-color: #04AA6D;
   color: white;
 }
-tr:hover {background-color: lightgray;}
+
+tr:hover {background-color: slateblue;}
 </style>
 <table class="table">
+    <tr>
+      <td>Identificador</td>
+      <td>Marca</td>
+      <td>Modelo</td>
+      <td>Kilometraje</td>
+      <td>Cantidad Asientos</td>
+      <td>Placa</td>
+    </tr>
+
     @foreach (var bus in Model.Buses)
     {
         <tr>
@@ -32,8 +46,11 @@ tr:hover {background-color: lightgray;}
             <td>
               <a class="btn btn-info" asp-page="./Details" asp-route-busId="@bus.id"><i class="fas fa-adjust"></i>Ver</a>
               <a class="btn btn-info" asp-page="./Edit" asp-route-busId="@bus.id">Editar</a>
-              <a class="btn btn-danger" href="">Eliminar</a>
-              </td>
+              <form method="POST">
+              <input type="number" class="form-control d-none" id="id" name="id" placeholder="id" asp-for="@bus.id">
+              <button type="submit"class="btn btn-danger" href="">Eliminar</button>
+              </form>
+            </td>
         </tr>
     }
 </table>

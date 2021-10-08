@@ -9,20 +9,20 @@ using ProyectoCiclo3.App.Dominio;
  
 namespace ProyectoCiclo3.App.Frontend.Pages
 {
-    public class EditBusModel : PageModel
+    public class EditEstacionesModel : PageModel
     {
-        private readonly RepositorioBuses repositorioBuses;
-       [BindProperty]
-        public Buses Bus {get;set;}
- 
-        public EditBusModel(RepositorioBuses repositorioBuses)
-       {
-            this.repositorioBuses=repositorioBuses;
-       }
- 
-        public IActionResult OnGet(int busId)
+        private readonly RepositorioEstaciones repositorioEstaciones;
+        [BindProperty]
+        public Estaciones Estacion {get;set;}
+      
+        public EditEstacionesModel(RepositorioEstaciones repositorioEstaciones) 
         {
-            Bus=repositorioBuses.GetBusWithId(busId);
+            this.repositorioEstaciones = repositorioEstaciones;
+        }
+
+        public IActionResult OnGet(int EstacionId)
+        {
+            Estacion=repositorioEstaciones.GetEstacionWithId(EstacionId);
             return Page();
  
         }
@@ -33,9 +33,9 @@ namespace ProyectoCiclo3.App.Frontend.Pages
             {
                 return Page();
             }
-            if(Bus.id>0)
+            if(Estacion.id>0)
             {
-            Bus = repositorioBuses.Update(Bus);
+            Estacion = repositorioEstaciones.Update(Estacion);
             }
             return RedirectToPage("./List");
         }

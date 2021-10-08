@@ -6,6 +6,9 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Encomiendas");
+
             migrationBuilder.CreateTable(
                 name: "Buses",
                 columns: table => new
@@ -15,7 +18,7 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                     marca = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     modelo = table.Column<int>(type: "int", nullable: false),
                     kilometraje = table.Column<int>(type: "int", nullable: false),
-                    numeroAsientos = table.Column<int>(type: "int", nullable: false),
+                    numero_asientos = table.Column<int>(type: "int", nullable: false),
                     placa = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
@@ -31,8 +34,8 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    coordenandaX = table.Column<float>(type: "real", nullable: false),
-                    coordenadaY = table.Column<float>(type: "real", nullable: false),
+                    coord_x = table.Column<float>(type: "real", nullable: false),
+                    coord_y = table.Column<float>(type: "real", nullable: false),
                     tipo = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
@@ -48,7 +51,7 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     origen = table.Column<int>(type: "int", nullable: false),
                     destino = table.Column<int>(type: "int", nullable: false),
-                    tiempoEstimado = table.Column<int>(type: "int", nullable: false)
+                    tiempo_estimado = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -66,6 +69,22 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
 
             migrationBuilder.DropTable(
                 name: "Rutas");
+
+            migrationBuilder.CreateTable(
+                name: "Encomiendas",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    peso = table.Column<int>(type: "int", nullable: false),
+                    presentacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    tipo = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Encomiendas", x => x.id);
+                });
         }
     }
 }
