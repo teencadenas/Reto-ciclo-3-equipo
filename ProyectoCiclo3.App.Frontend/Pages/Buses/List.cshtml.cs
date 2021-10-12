@@ -15,6 +15,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
         private readonly RepositorioBuses repositorioBuses;
         [BindProperty]
         public Buses Bus {get;set;}
+        
         public IEnumerable<Buses> Buses {get;set;}
  
         public ListBusModel(RepositorioBuses repositorioBuses)

@@ -21,7 +21,6 @@ namespace ProyectoCiclo3.App.Frontend.Pages
             this.repositorioEstaciones=repositorioEstaciones;
        }
 
-
         public void OnGet()
         {
  

@@ -33,13 +33,14 @@ tr:hover {background-color: slateblue;}
       <td>Coordena Y</td>
       <td>Tipo</td>
     </tr>
+    
     @foreach (var estacion in Model.Estaciones)
     {
         <tr>
             <td>@estacion.id</td>
             <td>@estacion.nombre</td>
             <td>@estacion.direccion</td>
-            <td>@estacion.coord_x/td>
+            <td>@estacion.coord_x</td>
             <td>@estacion.coord_y</td>
             <td>@estacion.tipo</td>
             <td>

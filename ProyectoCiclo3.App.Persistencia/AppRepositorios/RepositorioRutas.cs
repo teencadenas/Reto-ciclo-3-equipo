@@ -22,7 +22,6 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         public Rutas Update(Rutas newRuta){
             var ruta= _appContext.Rutas.Find(newRuta.id);
             if(ruta != null){
-                ruta.id = newRuta.id;
                 ruta.origen= newRuta.origen;
                 ruta.destino= newRuta.destino;
                 ruta.tiempo_estimado = newRuta.tiempo_estimado;

@@ -15,6 +15,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
         private readonly RepositorioEstaciones repositorioEstaciones;
         [BindProperty]
         public Estaciones Estacion {get;set;}
+        
         public IEnumerable<Estaciones> Estaciones {get;set;}
  
         public ListEstacionModel(RepositorioEstaciones repositorioEstaciones)

@@ -22,7 +22,6 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         public Estaciones Update(Estaciones newEstacion){
             var Estacion= _appContext.Estaciones.Find(newEstacion.id);
             if(Estacion != null){
-                Estacion.id = newEstacion.id;
                 Estacion.nombre = newEstacion.nombre;
                 Estacion.direccion = newEstacion.direccion;
                 Estacion.coord_x = newEstacion.coord_x;
@@ -49,7 +48,6 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         _appContext.Estaciones.Remove(estacion);
         _appContext.SaveChanges();
         }
-
 
     }
 }

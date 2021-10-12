@@ -49,6 +49,5 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         _appContext.SaveChanges();
         }
 
-
     }
 }

@@ -12,7 +12,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     public class DetailsBusModel : PageModel
     {
        private readonly RepositorioBuses repositorioBuses;
-              public Buses Bus {get;set;}
+            public Buses Bus {get;set;}
  
         public DetailsBusModel(RepositorioBuses repositorioBuses)
        {
