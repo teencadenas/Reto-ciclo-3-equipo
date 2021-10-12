@@ -5737,19 +5737,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Queen\\.nuget\\packages\\": {}
+    "C:\\Users\\teenc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Queen\\Desktop\\proyecto\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+      "projectUniqueName": "C:\\Users\\teenc\\Desktop\\.Net Proyecto\\Proyecto ciclo 3\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
       "projectName": "ProyectoCiclo3.App.Frontend",
-      "projectPath": "C:\\Users\\Queen\\Desktop\\proyecto\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\Queen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Queen\\Desktop\\proyecto\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Frontend\\obj\\",
+      "projectPath": "C:\\Users\\teenc\\Desktop\\.Net Proyecto\\Proyecto ciclo 3\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\teenc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\teenc\\Desktop\\.Net Proyecto\\Proyecto ciclo 3\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Queen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\teenc\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5760,8 +5760,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Queen\\Desktop\\proyecto\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\Queen\\Desktop\\proyecto\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
+            "C:\\Users\\teenc\\Desktop\\.Net Proyecto\\Proyecto ciclo 3\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\teenc\\Desktop\\.Net Proyecto\\Proyecto ciclo 3\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
             }
           }
         }
@@ -5792,7 +5792,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
       }
     }
   }

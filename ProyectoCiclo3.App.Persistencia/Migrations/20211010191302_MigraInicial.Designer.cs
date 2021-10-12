@@ -9,7 +9,7 @@ using ProyectoCiclo3.App.Persistencia;
 namespace ProyectoCiclo3.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20210917061740_MigraInicial")]
+    [Migration("20211010191302_MigraInicial")]
     partial class MigraInicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
