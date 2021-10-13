@@ -6,10 +6,25 @@
 <h1>Formulario rutas.</h1> 
 <div class="text">
   <form method="POST">
-    <label for="origen" class="form-label">Digite el nombre de la estacion:</label>
-      <input type="number" class="form-control" id="origen" placeholder="Estacion de origen" asp-for="@Rutas.origen">
+      <label for="origen" class="form-label">Selecciones estacion origen:</label>
+      <select asp-for="Ruta.origen" class="form-control" required>
+        <option value="">origen</option>
+        @foreach (var estacion in Model.Estaciones)
+        {
+          <option value="@estacion.id">@estacion.id </option>
+        }
+        </select>
+
+
       <label for="destino" class="form-label">Digite el destino de la ruta:</label>
-      <input type="number" class="form-control" id="destino" placeholder="Estacion de destino" asp-for="@Rutas.destino">
+      <select asp-for="Ruta.destino" class="form-control" required>
+        <option value="">destino</option>
+        @foreach (var estacion in Model.Estaciones)
+        {
+          <option value="@estacion.id">@estacion.id </option>
+        }
+        </select>
+
       <label for="tiempo_estimado" class="form-label">Digite el tiempo estimado de la ruta</label>
       <input type="number" class="form-control" id="tiempo_estimado" placeholder="Tiempo estimado de la ruta" asp-for="@Rutas.tiempo_estimado">
     <hr>
