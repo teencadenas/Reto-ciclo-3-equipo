@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "69SX84v/ynI/Tr86rG3VCbiSsjlgkbtv7G0PEGiAYe6GHJp0RwOyBfDtjp6nmO7KZvpFAOJ9KG5Ok3flsxWd/w==",
+  "dgSpecHash": "X43mSv1A2sMsrUJSjpRhqzn3x+uOD5D6U6foiEdPAZCO8/sArzGa1pElOTHcPxJJzOUQXhTzL363BywfWFdGlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Queen\\Desktop\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Consola\\ProyectoCiclo3.App.Consola.csproj",
+  "projectFilePath": "C:\\Users\\Queen\\Desktop\\proyecto\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Consola\\ProyectoCiclo3.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Queen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Queen\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ZA9jLVFNvInlfF7Qv1jm0JK93SrglNUBn8q3cOHpg6YPUOkLtZBJmLuGr8lgvDPN51lhNhmdlwNI0Z4aYKbZLQ==",
+  "dgSpecHash": "LnFrydex6WueAjd+2HqGno1IrS73lluaRgRSLX5gZcvBnyf3l92+BuTzBRzQVCBW1/GEIbIjslujH0RMAlKbbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\teenc\\Desktop\\.Net Proyecto\\Proyecto ciclo 3\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Queen\\Desktop\\proyecto\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\teenc\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\teenc\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Queen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Queen\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

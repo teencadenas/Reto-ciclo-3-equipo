@@ -1,21 +1,21 @@
 @page
 @model ProyectoCiclo3.App.Frontend.Pages.FormEstacionModel
 @{
-  var Estaciones = Model.Estacion;
+  var estacion = Model.Estacion;
 }
 <h1>Formulario estaciones.</h1> 
 <div class="text">
   <form method="POST">
       <label for="nombre" class="form-label">Digite el nombre de la estacion:</label>
-      <input type="text" class="form-control" id="nombre" placeholder="nombre" asp-for="@Estaciones.nombre" required>
+      <input type="text" class="form-control" id="nombre" placeholder="nombre" asp-for="@estacion.nombre" required>
       <label for="direccion" class="form-label">Digite la direccion de la estacion:</label>
-      <input type="text" class="form-control" id="direccion" placeholder="direccion" asp-for="@Estaciones.direccion" required>
+      <input type="text" class="form-control" id="direccion" placeholder="direccion" asp-for="@estacion.direccion" required>
       <label for="coord_x" class="form-label">Digite la coordenada X de la estacion</label>
-      <input type="number" class="form-control" id="coord_x" placeholder="coord_x" asp-for="@Estaciones.coord_x" required>
+      <input type="number" class="form-control" id="coord_x" placeholder="coord_x" asp-for="@estacion.coord_x" required>
       <label for="coord_y" class="form-label">Digite la coordenada X de la estacion:</label>
-      <input type="number" class="form-control" id="coord_y" placeholder="coord_y" asp-for="@Estaciones.coord_y" required>
+      <input type="number" class="form-control" id="coord_y" placeholder="coord_y" asp-for="@estacion.coord_y" required>
       <label for="tipo" class="form-label">Digite el tipo de estacion:</label>
-      <input type="text" class="form-control" id="tipo" placeholder="tipo" asp-for="@Estaciones.tipo">
+      <input type="text" class="form-control" id="tipo" placeholder="tipo" asp-for="@estacion.tipo">
       <hr>
       <button type="submit" class="btn btn-success" style=" background-color: gray; border-color: black; font-size: black;">Enviar</button>
   </form>

@@ -12,8 +12,8 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     public class EditEstacionesModel : PageModel
     {
         private readonly RepositorioEstaciones repositorioEstaciones;
-        [BindProperty]
         
+        [BindProperty]
         public Estaciones Estacion {get;set;}
       
         public EditEstacionesModel(RepositorioEstaciones repositorioEstaciones) 

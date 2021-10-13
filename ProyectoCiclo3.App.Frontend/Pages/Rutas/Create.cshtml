@@ -1,7 +1,7 @@
 @page
 @model ProyectoCiclo3.App.Frontend.Pages.FormRutaModel
 @{
-  var Rutas = Model.Ruta;
+  var ruta = Model.Ruta;
 }
 <h1>Formulario rutas.</h1> 
 <div class="text">
@@ -26,7 +26,7 @@
         </select>
 
       <label for="tiempo_estimado" class="form-label">Digite el tiempo estimado de la ruta</label>
-      <input type="number" class="form-control" id="tiempo_estimado" placeholder="Tiempo estimado de la ruta" asp-for="@Rutas.tiempo_estimado">
+      <input type="number" class="form-control" id="tiempo_estimado" placeholder="Tiempo estimado de la ruta" asp-for="@ruta.tiempo_estimado">
     <hr>
     <button type="submit" class="btn btn-success" style=" background-color: gray; border-color: black; font-size: black;">Enviar</button>
   </form>

@@ -5840,11 +5840,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Queen\\Desktop\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Consola\\ProyectoCiclo3.App.Consola.csproj",
+      "projectUniqueName": "C:\\Users\\Queen\\Desktop\\proyecto\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Consola\\ProyectoCiclo3.App.Consola.csproj",
       "projectName": "ProyectoCiclo3.App.Consola",
-      "projectPath": "C:\\Users\\Queen\\Desktop\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Consola\\ProyectoCiclo3.App.Consola.csproj",
+      "projectPath": "C:\\Users\\Queen\\Desktop\\proyecto\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Consola\\ProyectoCiclo3.App.Consola.csproj",
       "packagesPath": "C:\\Users\\Queen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Queen\\Desktop\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Consola\\obj\\",
+      "outputPath": "C:\\Users\\Queen\\Desktop\\proyecto\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Queen\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5858,8 +5858,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Queen\\Desktop\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\Queen\\Desktop\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
+            "C:\\Users\\Queen\\Desktop\\proyecto\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\Queen\\Desktop\\proyecto\\Reto-ciclo-3-equipo\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
             }
           }
         }
