@@ -26,6 +26,8 @@ h1 {
                     @Html.Partial("_LoginPartial")
                     @using Microsoft.AspNetCore.Identity
                     @inject SignInManager<IdentityUser> SignInManager
+                    @if (SignInManager.IsSignedIn(User))
+                    {
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Inicio</a>
@@ -52,6 +54,7 @@ h1 {
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacidad</a>
                         </li>
                     </ul>
+                    }
                     </div>
             </div>
         </nav>
